@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lays"
+
+    tools:context="com.example.android.json.MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:text="Weather App"
+        android:textSize="36sp"
+        android:textColor="@color/colorAccent"
+      />
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="259dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+
+        android:onClick="findWeather"
+        android:text="Get Weather" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#41640d"
+
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="365dp"
+        android:layout_height="163dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="21sp"
+        android:layout_weight="0.64" />
+</LinearLayout>
