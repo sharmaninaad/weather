@@ -175,24 +175,6 @@ public class MainActivity extends Activity {
                 textView.setText(text);
                 message=message+"\nwind:"+wind_mph+" mph\n pressure:"+pressure_mb+"\n humidity:"+humidity+"\nactual feel:"+actualfeel;
                // String text=current.getString("text");
-                switch(text)
-                {
-                    case "Sunny": layout.setBackgroundResource(R.drawable.sunny);
-                        break;
-                    case "Fog": layout.setBackgroundResource(R.drawable.fog);
-                        break;
-                    case "Mist": layout.setBackgroundResource(R.drawable.mist);
-                        break;
-                    case "Rain": layout.setBackgroundResource(R.drawable.rain);
-                        break;
-                    case "Overcast": layout.setBackgroundResource(R.drawable.overcast);
-                        break;
-                    case "Snow": layout.setBackgroundResource(R.drawable.snow);
-                        break;
-                    default:layout.setBackgroundResource(R.drawable.bg);
-
-
-                }
 
                     resultTextView = (TextView) findViewById(R.id.resultTextView);
                     if (!message.equals("")) {

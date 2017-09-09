@@ -7,7 +7,7 @@
     android:id="@+id/lays"
 
     tools:context="com.example.android.json.MainActivity"
-    android:background="@drawable/bg"
+
     android:orientation="vertical"
     android:weightSum="1">
 
